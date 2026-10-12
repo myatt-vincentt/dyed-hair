@@ -1,3 +1,22 @@
+# Dyed Hair
+
+Try a new hair colour live. Only your hair is recoloured, and it keeps your own strands, shine and
+shadow, so it looks dyed rather than painted. Ten styles: **Solid**, **Ombré** (roots → tips),
+**Tri-tone**, **Split dye** (left / right), **Rainbow**, **Highlights** (strand-shaped streaks),
+and sci-fi **Holographic**, **Neon** (glowing rim, light pulses, halo), **Galaxy** (nebula and
+twinkling stars) and **Glitch**. A floating frosted-glass bubble holds the controls: tap it and
+two rings fan out: the styles outside; hold-to-compare, the style's colour slots, strength
+(Soft / Rich / Bold) and shuffle inside. Tap a colour slot and the outer ring becomes 16 dye
+shades. Each style remembers its colours.
+
+- Hair: the SDK's hair segmenter (`useHairMask`, MediaPipe Hair Segmenter), recoloured by one
+  full-screen shader. No third-party assets.
+- Dev preview without a camera: the media switcher (☰) starts on the SDK's "Person Shaking Head"
+  video. An optional local clip goes at `dev-media/hair.mp4` (see `dev-media/README.md`).
+- Tuning: `src/dye/config.ts`; styles and palette: `src/dye/looks.ts`. How it works: `PLAN.md`.
+
+---
+
 # v2-template
 
 The Vincentt starter app: a real React + R3F + Vincentt XR SDK (`@vincentt-xr/sdk`)

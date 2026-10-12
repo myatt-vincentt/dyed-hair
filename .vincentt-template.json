@@ -33,6 +33,16 @@
     "src/Scene.tsx",
     "src/FaceBoundingBox.tsx",
     "src/FooterHud.tsx",
-    "src/HandBoundingBox.tsx"
+    "src/HandBoundingBox.tsx",
+    "src/DevMediaSwitcher.tsx",
+    "src/dye/ExperienceStatus.tsx",
+    "src/dye/HairDye.tsx",
+    "src/dye/Hud.tsx",
+    "src/dye/config.ts",
+    "src/dye/looks.ts",
+    "src/dye/bounds.ts",
+    "src/dye/state.ts",
+    "src/dye/looks.test.ts",
+    "src/dye/bounds.test.ts"
   ]
 }
